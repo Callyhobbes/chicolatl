@@ -245,8 +245,8 @@ body {
 }
 
 .cart-item img {
-  width: 75px;
-  height: 75px;
+  width: 100px;
+  height: 100%;
 }
 
 .cart-item h4 {

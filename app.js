@@ -132,9 +132,44 @@ class UI {
     cartDOM.classList.remove('showCart')
   }
   cartLogic(){
+    // clear all items in cart
     clearCartBtn.addEventListener('click', () => {
       this.clearCart();
     });
+    // cart logic
+    cartContent.addEventListener('click', (event) => {
+      if (event.target.classList.contains('remove-item')) {
+        let removeItem = event.target;
+        let id = removeItem.dataset.id;
+        cartContent.removeChild(removeItem.parentElement.parentElement);
+        this.removeItem(id);
+      } else if (event.target.classList.contains('fa-chevron-up')) {
+        let addAmount = event.target;
+        let id = addAmount.dataset.id;
+        let tempItem = cart.find(item => item.id === id);
+        tempItem.amount = tempItem.amount + 1;
+        // Update local storage of cart amount
+        Storage.saveCart(cart);
+        this.setCartValues(cart);
+        // change amount on screen
+        addAmount.nextElementSibling.innerText = tempItem.amount;
+      } else if (event.target.classList.contains('fa-chevron-down')) {
+        let minusAmount = event.target;
+        let id = minusAmount.dataset.id;
+        let tempItem = cart.find(item => item.id === id);
+        tempItem.amount = tempItem.amount - 1;
+        // If it is below 1 then it is removed from screen
+        if(tempItem.amount > 0) {
+          // Update local storage of cart amount
+          Storage.saveCart(cart);
+          this.setCartValues(cart);
+          minusAmount.previousElementSibling.innerText = tempItem.amount;
+        } else {
+          cartContent.removeChild(minusAmount.parentElement.parentElement);
+          this.removeItem(id);
+        }
+      }
+    })
   }
   clearCart(){
     let cartItems = cart.map(item => item.id);
@@ -145,6 +180,7 @@ class UI {
     this.hideCart();
   }
   removeItem(id){
+    // Created to be modular and reusable for both remove 1 item and remove all items
     cart = cart.filter(item => item.id !== id);
     this.setCartValues(cart);
     Storage.saveCart(cart);
