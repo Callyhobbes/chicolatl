@@ -1,0 +1,260 @@
+{
+  "items": [
+    {
+      "sys": {
+        "id": "1"
+      },
+      "fields": {
+        "title": "Sushi Roll",
+        "price": 4.99,
+        "image": {
+          "fields": {
+            "file": {
+              "url": "./assets/product-1.jpg"
+            }
+          }
+        }
+      }
+    },
+    {
+      "sys": {
+        "id": "2"
+      },
+      "fields": {
+        "title": "Powder Ball",
+        "price": 3.99,
+        "image": {
+          "fields": {
+            "file": {
+              "url": "./assets/product-2.jpg"
+            }
+          }
+        }
+      }
+    },
+    {
+      "sys": {
+        "id": "3"
+      },
+      "fields": {
+        "title": "Pistachio Pudding",
+        "price": 2.99,
+        "image": {
+          "fields": {
+            "file": {
+              "url": "./assets/product-3.jpg"
+            }
+          }
+        }
+      }
+    },
+    {
+      "sys": {
+        "id": "4"
+      },
+      "fields": {
+        "title": "Nanaimo",
+        "price": 3.99,
+        "image": {
+          "fields": {
+            "file": {
+              "url": "./assets/product-4.jpg"
+            }
+          }
+        }
+      }
+    },
+    {
+      "sys": {
+        "id": "5"
+      },
+      "fields": {
+        "title": "Fro-yo-go",
+        "price": 6.99,
+        "image": {
+          "fields": {
+            "file": {
+              "url": "./assets/product-5.jpg"
+            }
+          }
+        }
+      }
+    },
+    {
+      "sys": {
+        "id": "6"
+      },
+      "fields": {
+        "title": "Mt. Fuji",
+        "price": 4.99,
+        "image": {
+          "fields": {
+            "file": {
+              "url": "./assets/product-6.jpg"
+            }
+          }
+        }
+      }
+    },
+    {
+      "sys": {
+        "id": "7"
+      },
+      "fields": {
+        "title": "Pecan Pie",
+        "price": 2.99,
+        "image": {
+          "fields": {
+            "file": {
+              "url": "./assets/product-7.jpg"
+            }
+          }
+        }
+      }
+    },
+    {
+      "sys": {
+        "id": "8"
+      },
+      "fields": {
+        "title": "The Sauce",
+        "price": 6.99,
+        "image": {
+          "fields": {
+            "file": {
+              "url": "./assets/product-8.jpg"
+            }
+          }
+        }
+      }
+    },
+    {
+      "sys": {
+        "id": "9"
+      },
+      "fields": {
+        "title": "She-Shell",
+        "price": 6.99,
+        "image": {
+          "fields": {
+            "file": {
+              "url": "./assets/product-9.jpg"
+            }
+          }
+        }
+      }
+    },
+    {
+      "sys": {
+        "id": "10"
+      },
+      "fields": {
+        "title": "Honey Hive",
+        "price": 6.99,
+        "image": {
+          "fields": {
+            "file": {
+              "url": "./assets/product-10.jpg"
+            }
+          }
+        }
+      }
+    },
+    {
+      "sys": {
+        "id": "11"
+      },
+      "fields": {
+        "title": "Cookie Crumble",
+        "price": 6.99,
+        "image": {
+          "fields": {
+            "file": {
+              "url": "./assets/product-11.jpg"
+            }
+          }
+        }
+      }
+    },
+    {
+      "sys": {
+        "id": "12"
+      },
+      "fields": {
+        "title": "Bullet Train",
+        "price": 6.99,
+        "image": {
+          "fields": {
+            "file": {
+              "url": "./assets/product-12.jpg"
+            }
+          }
+        }
+      }
+    },
+    {
+      "sys": {
+        "id": "13"
+      },
+      "fields": {
+        "title": "Lunar Crunch",
+        "price": 6.99,
+        "image": {
+          "fields": {
+            "file": {
+              "url": "./assets/product-13.jpg"
+            }
+          }
+        }
+      }
+    },
+    {
+      "sys": {
+        "id": "14"
+      },
+      "fields": {
+        "title": "Chips & Creme",
+        "price": 6.99,
+        "image": {
+          "fields": {
+            "file": {
+              "url": "./assets/product-14.jpg"
+            }
+          }
+        }
+      }
+    },
+    {
+      "sys": {
+        "id": "15"
+      },
+      "fields": {
+        "title": "Messy Hair",
+        "price": 6.99,
+        "image": {
+          "fields": {
+            "file": {
+              "url": "./assets/product-15.jpg"
+            }
+          }
+        }
+      }
+    },
+    {
+      "sys": {
+        "id": "16"
+      },
+      "fields": {
+        "title": "Caramelt",
+        "price": 6.99,
+        "image": {
+          "fields": {
+            "file": {
+              "url": "./assets/product-16.jpg"
+            }
+          }
+        }
+      }
+    }
+  ]
+}
